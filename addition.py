@@ -4,4 +4,9 @@
 print('How to color the git console?')
 print('git config --global color.ui auto')
 #creating with python3 in mind
-print('Adding two numbers 10 and 20: ',10+20)
+#print('Adding two numbers 10 and 20: ',10+20)
+#going to use function concept in addition as per client requirement to improve the modularity of the code
+def addTwoNum(x,y):
+  return x+y
+
+print("Adding two Number 10 and 20: "addTwoNum(10,20))
