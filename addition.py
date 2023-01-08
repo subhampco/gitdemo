@@ -8,5 +8,5 @@ print('git config --global color.ui auto')
 #going to use function concept in addition as per client requirement to improve the modularity of the code
 def addTwoNum(x,y):
   return x+y
-
-print("Adding two Number 10 and 20: "addTwoNum(10,20))
+#there is a typo in print function fixing it by using comma
+print("Adding two Number 10 and 20: ",addTwoNum(10,20))
