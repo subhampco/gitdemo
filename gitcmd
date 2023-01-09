@@ -1,0 +1,14 @@
+I have struggled a lot in git only for setting credentials in linux environment
+after researching and watching many resources i got the idea
+but wasted many hours in this simple thing window and mac having no issue but in linux 
+we have to take care extra
+credential helper cache feature it means remember my credential
+git config --global credential.helper cache
+
+now yo have to get token from your github page
+goto settings => developer settings => classical token=> generate one token
+
+now come to your terminal
+$git remote set-url origin https://token@github.com/curious08/gitdemo.git
+
+now it will not ask for password
