@@ -10,5 +10,6 @@ goto settings => developer settings => classical token=> generate one token
 
 now come to your terminal
 $git remote set-url origin https://token@github.com/curious08/gitdemo.git
-
+example
+git remote set-url origin https://ghp_token@github.com/subhampco/gitdemo.git
 now it will not ask for password
