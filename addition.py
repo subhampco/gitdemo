@@ -13,5 +13,8 @@ def addTwoNum(x,y):
 #there is a typo in print function fixing it by using comma
 print("Adding two Number 10 and 20: ",addTwoNum(10,20))
 #adding multiplication feature
+#adding function for product by sumesh
+def product(x,y):
+  return x*y
 
-print("Two Number product 10 * 20 is: ",10*20)
+print("Two Number product 10 * 20 is: ",product(10,20))
