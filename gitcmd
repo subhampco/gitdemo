@@ -13,3 +13,6 @@ $git remote set-url origin https://token@github.com/curious08/gitdemo.git
 example
 git remote set-url origin https://ghp_token@github.com/subhampco/gitdemo.git
 now it will not ask for password
+
+if your git log not showing head and branch in parenthesis then we should use this flag
+git log --oneline --decorate
